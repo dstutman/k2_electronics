@@ -1,4 +1,4 @@
-(module D_SOD-123F_reversible (layer F.Cu) (tedit 60311CD2)
+(module D_SOD-123F_reversible (layer F.Cu) (tedit 60311CDC)
   (descr "D_SOD-123F you can mount on either side of board")
   (tags "D_SOD-123F reversible")
   (attr smd)
