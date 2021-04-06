@@ -1,4 +1,4 @@
-(module MS88F2_reversible (layer F.Cu) (tedit 606CB1AA)
+(module MS88F2_reversible (layer F.Cu) (tedit 606CDD6B)
   (fp_text reference REF** (at 0 -7.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -77,4 +77,9 @@
   (pad 2 smd roundrect (at 9.1 -2.8) (size 1.6 0.8) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25))
   (pad 25 smd roundrect (at -9.1 -0.6 180) (size 1.6 0.8) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25))
   (pad 3 smd roundrect (at 9.1 -1.7) (size 1.6 0.8) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25))
+  (model ${KIPRJMOD}/library/k2.pretty/3d_models/MS88SF2.STEP
+    (offset (xyz 0 -0.45 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
